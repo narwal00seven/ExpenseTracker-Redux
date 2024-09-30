@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:  100%;
+    gap: 30px;
+    border: 1px solid #F7F7F7;
+}
+.banner{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px; 
+    background-color: #92a3a1;
+    color: rgb(53, 56, 54);
+}
+
+  
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+.showbanner{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.expense-section {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.decoration {
+    animation: bouncy 1s infinite;
+}
+  
+@keyframes bouncy {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-2px);
+    }
+    50% {
+      transform: translateY(2px);
+    }
+    75% {
+      transform: translateY(-2px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+

@@ -1,0 +1,56 @@
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+.deleteButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+}
+
+.filterContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pill {
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #eee;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pill:hover {
+    background-color: #ddd;
+}
+
+.selected {
+    background-color: #007bff;
+    color: white;
+}
